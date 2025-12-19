@@ -103,7 +103,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--input",
-        default="dataset_raw/bank-direct-marketing-campaigns.csv",
+        default="Bank Marketing Data Set_raw/bank-direct-marketing-campaigns.csv",
         help="Path ke dataset mentah (default: dataset_raw/bank-direct-marketing-campaigns.csv)",
     )
     parser.add_argument(
